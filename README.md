@@ -18,7 +18,9 @@ In order to make all the requirements done, I used some libraries to help me, su
 ## Huge Data Amount
 
 To prevent the huge data amount there's a lot of ways, such as limit the data input(not a good one, but its possible), search for libs bests praticces, use some lazy loadings, use paginators, avoid useless rerenders.
+
 In this case I used an algorithm that searchs for the last start event, and ignore the ones that was before, avoind to spend time processing an array of events that will not be ploted. I did some data validation while the data are parsing, it can save some time when user insert wrong input, since the parse will be stop before the end.
+
 But the most important thing, in all cases is to understand the main goal of the project, after that you can choose which technique will use. For example, as Intelie is known for your real time systems, keep it in real time is the main goal, there's no way to acept a lazy application, since it can mean a loss of an important information.
 
 ## Real JSON x Challenge JSON
