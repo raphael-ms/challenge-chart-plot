@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+.ace_editor{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.react-resizable{
+    position: relative;
+}
+.react-resizable-handle{
+    position: absolute;
+    left:50%;
+    height:10px;
+	width:24px;
+    z-index: 1;
+	transform: translateY(-50%);
+	background-image: url("/handler.png");	
+    cursor: ns-resize;
+    
+}

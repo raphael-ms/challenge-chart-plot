@@ -1,0 +1,10 @@
+.IntelieChart{
+    margin-left: 30px; 
+}
+
+.IntelieChart span{
+    font-size: 30px;
+    position: absolute;
+    left:42%;
+    bottom: 30%
+}
